@@ -1,0 +1,85 @@
+html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+     margin: 0;
+    padding: 0;
+      box-sizing: border-box;
+}
+.navbar{
+    background: linear-gradient(to right, rgb(2, 2, 72), rgb(39, 22, 233));
+    width: 100vw;
+    height: 80px;
+    border: 1px solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+ .navbar .header h1{
+    color: antiquewhite;
+    padding-left: 10px;
+}
+.navbar .options{
+    margin-right: 40px;
+}
+.navbar .options a{
+    color: antiquewhite;
+    text-align: right;
+  margin-right: 20px;
+  text-decoration: none;
+  font-size: 25px;
+  width: auto;
+
+}
+main{
+    margin-top: 20px;
+    text-align: center;
+     font-size: 25px;
+}
+.quizdiv{
+    border: 4px solid;
+    width: 100%;
+    
+    height: 200px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+.quizdiv p{
+    text-align: center;
+    padding-top: 0%;
+    margin-top: -5px;
+    font-size: 25px;
+}
+.quizdiv .box{
+    background-color: aliceblue;
+    border: 2px ;
+    width: auto;
+    height: 74%;
+    padding-bottom: 20px;
+  
+}
+.griding{
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+     
+    grid-template-rows:50px;
+    grid-gap: 5px;
+    grid-row-gap: 15px;
+}
+.griding .items{
+     border: 3px solid;
+     border-radius: 10px;
+     
+     height: 50px;
+    
+}
+.griding .items button
+{
+    width: 100%;
+    height:50px ;
+    border-radius:10px;
+    border:  3px solid;
+}
