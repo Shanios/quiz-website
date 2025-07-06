@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="quize.css">
+</head>
+<body>
+    <div class="navbar">
+     <div class="header"><h1>Quiz.com</h1></div>
+     <div class="options">
+       <a href="">Contact</a>
+       <a href="">About</a>
+     </div>
+    </div>
+    <main>
+        <h3>Welcome to my Website</h3>
+    </main>
+    <div class="quizdiv">
+        <p id="p"> Question</p>
+        <div class="box"></div>
+    </div>
+    <div class="griding">
+        <div class="items" id="item1"><button id="button1" onclick="correctanswer(this.textContent)"></button> </div>
+        <div class="items" id="item2"><button id="button2" onclick="correctanswer(this.textContent)"></button></div>
+        <div class="items" id="item3"><button id="button3" onclick="correctanswer(this.textContent)"></button></div>
+        <div class="items" id="item4"><button id="button4" onclick="correctanswer(this.textContent)"></button></div>
+    </div>
+    <button onclick="quiz()" style="margin-left: 47%;
+    margin-top: 35px;">refresh question</button>
+    <blockquote style="text-align: center; font-weight: 100;">please wait 6 seconds before refreshing</blockquote>
+</body>
+<script src="quize.js">
+</script>
+</html>
